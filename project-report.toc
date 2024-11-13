@@ -8,9 +8,9 @@
 \contentsline {subsection}{\numberline {2.3}Problem}{3}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Data}{3}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Collection Process}{3}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Questions}{3}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Data Process}{3}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Data Quality}{3}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.2}Questions}{4}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Data Process}{4}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Data Quality}{4}{subsection.3.4}%
 \contentsline {section}{\numberline {4}Analysis}{4}{section.4}%
 \contentsline {section}{\numberline {5}Visualization}{4}{section.5}%
 \contentsline {section}{\numberline {6}Findings}{4}{section.6}%
