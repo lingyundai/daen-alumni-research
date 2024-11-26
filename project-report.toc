@@ -17,5 +17,5 @@
 \contentsline {section}{\numberline {7}Next Steps and Lessons Learned}{6}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Next Steps}{6}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Lessons Learned}{6}{subsection.7.2}%
-\contentsline {section}{\numberline {A}Background}{7}{appendix.1.A}%
+\contentsline {section}{\numberline {A}Background}{6}{appendix.1.A}%
 \contentsline {section}{\numberline {B}References}{7}{appendix.1.B}%
