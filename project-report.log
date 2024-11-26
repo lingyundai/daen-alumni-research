@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.20)  26 NOV 2024 00:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.20)  26 NOV 2024 09:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -584,11 +584,11 @@ File: visualizations/career-tools.png Graphic file (type png)
 Package pdftex.def Info: visualizations/career-tools.png  used on input line 196.
 (pdftex.def)             Requested size: 409.71692pt x 247.56728pt.
  [10 <./visualizations/job-companies.png> <./visualizations/career-technologies.png>]
-<visualizations/daen-courses.png, id=181, 1169.36874pt x 732.7375pt>
+<visualizations/daen-courses.png, id=181, 1164.35pt x 741.77126pt>
 File: visualizations/daen-courses.png Graphic file (type png)
 <use visualizations/daen-courses.png>
 Package pdftex.def Info: visualizations/daen-courses.png  used on input line 203.
-(pdftex.def)             Requested size: 409.71692pt x 256.7303pt.
+(pdftex.def)             Requested size: 409.71692pt x 261.016pt.
 <visualizations/daen-technologies.png, id=182, 1062.97125pt x 298.11375pt>
 File: visualizations/daen-technologies.png Graphic file (type png)
 <use visualizations/daen-technologies.png>
@@ -605,7 +605,18 @@ File: visualizations/daen-rating.png Graphic file (type png)
 <use visualizations/daen-rating.png>
 Package pdftex.def Info: visualizations/daen-rating.png  used on input line 224.
 (pdftex.def)             Requested size: 409.71692pt x 287.79196pt.
- [12 <./visualizations/daen-technologies.png> <./visualizations/daen-tools.png> <./visualizations/daen-rating.png>] [13] (./project-report.aux)
+<visualizations/program-skills.png, id=193, 973.6375pt x 590.205pt>
+File: visualizations/program-skills.png Graphic file (type png)
+<use visualizations/program-skills.png>
+Package pdftex.def Info: visualizations/program-skills.png  used on input line 231.
+(pdftex.def)             Requested size: 409.71692pt x 248.36171pt.
+ [12 <./visualizations/daen-technologies.png> <./visualizations/daen-tools.png> <./visualizations/daen-rating.png>]
+<visualizations/potential-improvements.png, id=204, 1183.42125pt x 690.58pt>
+File: visualizations/potential-improvements.png Graphic file (type png)
+<use visualizations/potential-improvements.png>
+Package pdftex.def Info: visualizations/potential-improvements.png  used on input line 238.
+(pdftex.def)             Requested size: 409.71692pt x 239.08281pt.
+ [13 <./visualizations/program-skills.png> <./visualizations/potential-improvements.png>] [14] (./project-report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -614,18 +625,18 @@ Package rerunfilecheck Info: File `project-report.out' has not changed.
 (rerunfilecheck)             Checksum: 0F78030F021F345CAE374EF007FE0A14;2350.
  ) 
 Here is how much of TeX's memory you used:
- 29636 strings out of 474116
- 710537 string characters out of 5743682
+ 29655 strings out of 474116
+ 711224 string characters out of 5743682
  1936187 words of memory out of 5000000
- 51507 multiletter control sequences out of 15000+600000
+ 51523 multiletter control sequences out of 15000+600000
  564152 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,6n,107p,1908b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on project-report.pdf (13 pages, 986382 bytes).
+Output written on project-report.pdf (14 pages, 1394636 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
- 196 compressed objects within 2 object streams
- 50 named destinations out of 1000 (max. 500000)
- 236 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 254 PDF objects out of 1000 (max. 8388607)
+ 201 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 246 words of extra memory for PDF output out of 10000 (max. 10000000)
 
