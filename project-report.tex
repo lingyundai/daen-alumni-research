@@ -41,6 +41,9 @@ understanding of DAEN program effectiveness.
 \begin{tabular}{ll}
 DAEN & Data Analytics Engineering\\
 AWS & Amazon Web Services\\
+M.S. & Master of Science\\
+NLP & Natural Language Processing\\
+MS & Microsoft\\
 \end{tabular}
 \newpage
 
@@ -86,44 +89,63 @@ The DAEN program faces significant challenges in evaluating program effectivenes
 % 3. Data Section
 \section{Data}
 \subsection{Collection Process}
-The data collection process was conducted through structured interviews with DAEN program alumni. Alumni were identified and contacted through LinkedIn for interview scheduling. To ensure consistency and comprehensive data gathering, each interview followed a standardized set of questions covering academic background, career progression, technology and tools used, and program feedback. Interviews were conducted remotely and recorded with permission while maintaining participant anonymity throughout the process.
+The data collection process was conducted through structured interviews with program alumni. Alumni were identified and contacted through LinkedIn for interview scheduling. The interviews were conducted through multiple platforms based on alumni preferences: MS Teams, Zoom, or written surveys via LinkedIn. MS Teams interviews were recorded in both audio and text formats, Zoom sessions were captured in audio format, while LinkedIn surveys were collected as text documents. Each interview followed a standardized set of 12 questions to ensure unbiased and consistent data collection, covering academic background, career trajectory, technical skill utilization, and program evaluation. Interviews were conducted remotely and recorded with permission. All alumni personal information, including names and contact details, remained confidential to maintain privacy and data integrity throughout the study. 
 
 \subsection{Questions}
-The interviews were structured with the following 12 questions in the same order for each participating alumni:
+The interviews were structured with the following 12 questions and asked in the same order for each participating alumni:
 
-1. What year and spring/fall did you graduate from the Data Analytics Engineering (DAEN) program? 
+1. What year and semester did you graduate from the DAEN program? 
 
-This question aims to establish the alumni's graduation year and semester to track the program's impact over time.
+This question aims to establish the basic understanding of alumni's academic profile.
 
-2. Did you receive an M.S. or Certificate?  
+2. Did you receive an M.S. or Certificate? 
 
-3. What was the title of your first job, the name of the company and the general responsibilities?
+This question aims to establish further understanding of alumni's academic profile based on degree type achieved.
 
-4. What technologies/tools did you use for this job title? 
+3. What was the title of your first job, the name of the company, and the general responsibilities?
 
-5. What is your current job title, the name of the company and the general responsibilites?  
+This question collects information on alumni's initial employment trajectory post-graduation including job title, company name, and responsibilities to identify career progression.
+
+4. What technologies and tools did you use for this job title? 
+
+The question collects information on the most used technologies and tools in alumni's first job post-graduation to help identify industry trends.
+
+5. What is your current job title, the name of the company and the general responsibilities?
+
+This question collects information on alumni's current employment trajectory post-graduation including job title, company name, and responsibilities to identify career progression.
 
 6. How many jobs have you had since you graduated? 
 
+This question aims to establish the average number of jobs held by alumni post-graduation to identify employment trends.
+
 7. List the most used technologies/tools in your career. (E.g. Programming language, framework, cloud, ML) 
+
+This question collects information on the most used technologies and tools in alumni's career post-graduation to help identify industry trends.
 
 8. What knowledge and skills that you acquired in the DAEN program have been the most valuable to your career? Can you specify the concepts/methodologies/technologies that were most valuable? 
 
+This question aims to identify the most valuable skills acquired in the DAEN program that are directly applicable in alumni's professional roles.
+
 9. If DAEN program provided these specific courses, topics, or training, I would have been more prepared in my career… 
 
-10. How well did the DAEN courses prepare you for your career? (Scale: 1 – Not well at all, 5 – Very good) 
+This question aims to identify areas for program improvement based on alumni feedback.
+
+10. How well did the DAEN courses prepare you for your career? (Scale: 1 -- Not well at all, 5 -- Very good) 
+
+This question aims to evaluate the program's effectiveness in qualitative format in preparing graduates for industry demands.
 
 11. Have you completed any courses/certifications since you graduated from the DAEN program? 
 
-\subsection{Data Process}
-[Explain how the data was processed and summarized]
+This question aims to identify alumni's continuous learning and professional development post-graduation.
 
+\subsection{Data Process}
+The interview recordings were uploaded into the AWS S3 bucket for secure storage and processing. Audio recordings were converted to text using AWS Transcribe, while maintaining confidentiality throughout the process. To ensure anonymity, each alumni was assigned a unique identifier following the format CEC-DAEN-[Graduation Year]-[MS/Cert]-[Sequence Number]. The transcript data was processed using a local NLP toolkit to systematically extract relevant information through text tokenization, pattern matching, and keyword extraction techniques. This automated extraction process helped identify and categorize key information from the interview responses. The processed interview data was structured into 15 columns in a CSV file including: Alumni ID, Graduation Year, Degree Type, Total Jobs, Job Titles, Job Companies, Technologies Used, Tools Used, DAEN Program Courses, DAEN Program Technologies, DAEN Program Tools, DAEN Program Rating, DAEN Program Valuable Skills, DAEN Program Potential Improvements, and Course Certifications Completed. The CSV file was saved into the AWS S3 bucket and processed using custom Python script in AWS SageMaker. The script performs basic text preprocessing tasks, including removing empty spaces and standardizing string formats. To handle cases where alumni provided multiple program ratings, the script calculates their average value for consistent analysis. To facilitate data visualization in Tableau, the script transforms comma-separated values in multiple columns into separate numbered columns - for example, splitting a single job\_titles column containing multiple job titles into distinct columns such as job\_title\_1, job\_title\_2. This transformation expanded the original 15 columns into 62 columns, creating a structured format that is Tableau-compatible.
 \subsection{Data Quality}
-[Discuss the quality and reliability of the data]
+The alumni responses are based on self-reported data, which may introduce bias or inaccuracies. To mitigate this potential limitation, interview questions were carefully designed to be clear and concise. To minimize interviewer influence, interviewers proceeded systematically through questions after each response was completed. Any responses containing ambiguous terminology were filtered out through human review and excluded from the analysis. To enable more meaningful data visualization and trend analysis, similar job titles and technologies were mapped to standardized categories through comprehensive research and human review. Job titles were consolidated based on standard industry classifications from job platforms like Indeed and LinkedIn - for example, business analyst, senior data analyst, and data analyst were all categorized as data analyst. Similarly, technologies were standardized by their core functionality - for instance, different SQL implementations including Oracle SQL, PostgreSQL, and MySQL were grouped under the broader category of SQL.
 
 % 4. Analysis Section
 \section{Analysis}
-[Present your detailed analysis]
+Analysis was conducted using Tableau visualizations of the processed interview data from 13 DAEN alumni. The data reveals several key patterns: the largest cohort graduated in 2020 (5 alumni), all participants held MS degrees, and most had held two jobs since graduation. Data Analyst emerged as the most common job title, while employment companies showed diverse distribution with no dominant industry pattern. In terms of technical skills, SQL, Python, and AWS dominated as the most utilized technologies, while MS Power BI, Tableau, and MS Excel were the most commonly used tools. Regarding program evaluation, DAEN 690 and Database courses received the highest value ratings, with SQL and Python being the most beneficial technologies learned. Machine learning and database systems stood out as the most valuable tools acquired from the program. The program received positive feedback with most alumni rating it 4 out of 5. Alumni particularly valued database and data modeling skills gained from the program, while suggesting enhancements in cloud computing coverage and hands-on project opportunities. Post-graduation certifications and additional courses showed wide variation with no significant patterns emerging.
 
 % 5. Visualization Section
 \section{Visualization}

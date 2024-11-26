@@ -10,12 +10,12 @@
 \contentsline {subsection}{\numberline {3.1}Collection Process}{5}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Questions}{5}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Data Process}{6}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Data Quality}{6}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Analysis}{6}{section.4}%
-\contentsline {section}{\numberline {5}Visualization}{6}{section.5}%
-\contentsline {section}{\numberline {6}Findings}{6}{section.6}%
-\contentsline {section}{\numberline {7}Next Steps and Lessons Learned}{6}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Next Steps}{6}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Lessons Learned}{6}{subsection.7.2}%
-\contentsline {section}{\numberline {A}Background}{6}{appendix.1.A}%
-\contentsline {section}{\numberline {B}References}{7}{appendix.1.B}%
+\contentsline {subsection}{\numberline {3.4}Data Quality}{7}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Analysis}{7}{section.4}%
+\contentsline {section}{\numberline {5}Visualization}{7}{section.5}%
+\contentsline {section}{\numberline {6}Findings}{8}{section.6}%
+\contentsline {section}{\numberline {7}Next Steps and Lessons Learned}{8}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Next Steps}{8}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Lessons Learned}{8}{subsection.7.2}%
+\contentsline {section}{\numberline {A}Background}{8}{appendix.1.A}%
+\contentsline {section}{\numberline {B}References}{8}{appendix.1.B}%
