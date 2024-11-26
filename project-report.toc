@@ -12,10 +12,10 @@
 \contentsline {subsection}{\numberline {3.3}Data Process}{6}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Data Quality}{7}{subsection.3.4}%
 \contentsline {section}{\numberline {4}Analysis}{7}{section.4}%
-\contentsline {section}{\numberline {5}Visualization}{7}{section.5}%
-\contentsline {section}{\numberline {6}Findings}{8}{section.6}%
-\contentsline {section}{\numberline {7}Next Steps and Lessons Learned}{8}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Next Steps}{8}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Lessons Learned}{8}{subsection.7.2}%
-\contentsline {section}{\numberline {A}Background}{8}{appendix.1.A}%
-\contentsline {section}{\numberline {B}References}{8}{appendix.1.B}%
+\contentsline {section}{\numberline {5}Visualization}{8}{section.5}%
+\contentsline {section}{\numberline {6}Findings}{13}{section.6}%
+\contentsline {section}{\numberline {7}Next Steps and Lessons Learned}{13}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Next Steps}{13}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Lessons Learned}{13}{subsection.7.2}%
+\contentsline {section}{\numberline {A}Background}{13}{appendix.1.A}%
+\contentsline {section}{\numberline {B}References}{13}{appendix.1.B}%
