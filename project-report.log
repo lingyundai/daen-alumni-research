@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.20)  26 NOV 2024 09:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.20)  26 NOV 2024 11:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -616,7 +616,17 @@ File: visualizations/potential-improvements.png Graphic file (type png)
 <use visualizations/potential-improvements.png>
 Package pdftex.def Info: visualizations/potential-improvements.png  used on input line 238.
 (pdftex.def)             Requested size: 409.71692pt x 239.08281pt.
- [13 <./visualizations/program-skills.png> <./visualizations/potential-improvements.png>] [14] (./project-report.aux)
+<visualizations/daen-alumni-completed-certs.png, id=205, 1178.4025pt x 695.59875pt>
+File: visualizations/daen-alumni-completed-certs.png Graphic file (type png)
+<use visualizations/daen-alumni-completed-certs.png>
+Package pdftex.def Info: visualizations/daen-alumni-completed-certs.png  used on input line 245.
+(pdftex.def)             Requested size: 409.71692pt x 241.84988pt.
+ [13 <./visualizations/program-skills.png> <./visualizations/potential-improvements.png>] [14 <./visualizations/daen-alumni-completed-certs.png>] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+\OT1/cmr/m/n/12 https://catalog.gmu.edu/colleges-schools/engineering-computing/engineering/data-
+ []
+
+[16] (./project-report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -625,18 +635,18 @@ Package rerunfilecheck Info: File `project-report.out' has not changed.
 (rerunfilecheck)             Checksum: 0F78030F021F345CAE374EF007FE0A14;2350.
  ) 
 Here is how much of TeX's memory you used:
- 29655 strings out of 474116
- 711224 string characters out of 5743682
+ 29666 strings out of 474116
+ 711645 string characters out of 5743682
  1936187 words of memory out of 5000000
- 51523 multiletter control sequences out of 15000+600000
+ 51531 multiletter control sequences out of 15000+600000
  564152 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,6n,107p,1908b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on project-report.pdf (14 pages, 1394636 bytes).
+Output written on project-report.pdf (16 pages, 1592593 bytes).
 PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
- 201 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
- 246 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 266 PDF objects out of 1000 (max. 8388607)
+ 209 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 251 words of extra memory for PDF output out of 10000 (max. 10000000)
 
