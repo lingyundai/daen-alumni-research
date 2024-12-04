@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.20)  26 NOV 2024 11:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.20)  4 DEC 2024 11:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -544,109 +544,110 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write5
 \openout5 = `project-report.toc'.
 
- [2] [3] [4] [5] [6]
-<visualizations/graduation-year.png, id=143, 1176.395pt x 824.07875pt>
+ [2] [3] [4] [5{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [6] [7] [8] [9] [10] [11]
+<visualizations/graduation-year.png, id=161, 1176.395pt x 824.07875pt>
 File: visualizations/graduation-year.png Graphic file (type png)
 <use visualizations/graduation-year.png>
-Package pdftex.def Info: visualizations/graduation-year.png  used on input line 155.
+Package pdftex.def Info: visualizations/graduation-year.png  used on input line 311.
 (pdftex.def)             Requested size: 409.71692pt x 287.01097pt.
-<visualizations/degree-type.png, id=145, 1174.3875pt x 142.5325pt>
+<visualizations/degree-type.png, id=163, 1174.3875pt x 142.5325pt>
 File: visualizations/degree-type.png Graphic file (type png)
 <use visualizations/degree-type.png>
-Package pdftex.def Info: visualizations/degree-type.png  used on input line 161.
+Package pdftex.def Info: visualizations/degree-type.png  used on input line 319.
 (pdftex.def)             Requested size: 409.71692pt x 49.72617pt.
- [7]
-<visualizations/total-jobs.png, id=152, 1175.39125pt x 827.09pt>
+<visualizations/total-jobs.png, id=164, 1175.39125pt x 827.09pt>
 File: visualizations/total-jobs.png Graphic file (type png)
 <use visualizations/total-jobs.png>
-Package pdftex.def Info: visualizations/total-jobs.png  used on input line 168.
+Package pdftex.def Info: visualizations/total-jobs.png  used on input line 327.
 (pdftex.def)             Requested size: 409.71692pt x 288.29951pt.
- [8 <./visualizations/graduation-year.png> <./visualizations/degree-type.png>]
-<visualizations/job-titles.png, id=161, 1173.38374pt x 299.1175pt>
+ [12 <./visualizations/graduation-year.png> <./visualizations/degree-type.png>]
+<visualizations/job-titles.png, id=173, 1173.38374pt x 299.1175pt>
 File: visualizations/job-titles.png Graphic file (type png)
 <use visualizations/job-titles.png>
-Package pdftex.def Info: visualizations/job-titles.png  used on input line 175.
+Package pdftex.def Info: visualizations/job-titles.png  used on input line 335.
 (pdftex.def)             Requested size: 409.71692pt x 104.44165pt.
-<visualizations/job-companies.png, id=162, 1235.61626pt x 724.7075pt>
+<visualizations/job-companies.png, id=174, 1235.61626pt x 724.7075pt>
 File: visualizations/job-companies.png Graphic file (type png)
 <use visualizations/job-companies.png>
-Package pdftex.def Info: visualizations/job-companies.png  used on input line 182.
+Package pdftex.def Info: visualizations/job-companies.png  used on input line 344.
 (pdftex.def)             Requested size: 409.71692pt x 240.30426pt.
- [9 <./visualizations/total-jobs.png> <./visualizations/job-titles.png>]
-<visualizations/career-technologies.png, id=171, 994.71625pt x 701.62125pt>
+ [13 <./visualizations/total-jobs.png> <./visualizations/job-titles.png>]
+<visualizations/career-technologies.png, id=184, 994.71625pt x 701.62125pt>
 File: visualizations/career-technologies.png Graphic file (type png)
 <use visualizations/career-technologies.png>
-Package pdftex.def Info: visualizations/career-technologies.png  used on input line 189.
+Package pdftex.def Info: visualizations/career-technologies.png  used on input line 353.
 (pdftex.def)             Requested size: 409.71692pt x 288.9941pt.
-<visualizations/career-tools.png, id=172, 1372.12625pt x 829.0975pt>
+ [14 <./visualizations/job-companies.png> <./visualizations/career-technologies.png>]
+<visualizations/career-tools.png, id=193, 1372.12625pt x 829.0975pt>
 File: visualizations/career-tools.png Graphic file (type png)
 <use visualizations/career-tools.png>
-Package pdftex.def Info: visualizations/career-tools.png  used on input line 196.
+Package pdftex.def Info: visualizations/career-tools.png  used on input line 368.
 (pdftex.def)             Requested size: 409.71692pt x 247.56728pt.
- [10 <./visualizations/job-companies.png> <./visualizations/career-technologies.png>]
-<visualizations/daen-courses.png, id=181, 1164.35pt x 741.77126pt>
+<visualizations/daen-courses.png, id=194, 1164.35pt x 741.77126pt>
 File: visualizations/daen-courses.png Graphic file (type png)
 <use visualizations/daen-courses.png>
-Package pdftex.def Info: visualizations/daen-courses.png  used on input line 203.
+Package pdftex.def Info: visualizations/daen-courses.png  used on input line 382.
 (pdftex.def)             Requested size: 409.71692pt x 261.016pt.
-<visualizations/daen-technologies.png, id=182, 1062.97125pt x 298.11375pt>
+ [15 <./visualizations/career-tools.png>]
+<visualizations/daen-technologies.png, id=201, 1062.97125pt x 298.11375pt>
 File: visualizations/daen-technologies.png Graphic file (type png)
 <use visualizations/daen-technologies.png>
-Package pdftex.def Info: visualizations/daen-technologies.png  used on input line 210.
+Package pdftex.def Info: visualizations/daen-technologies.png  used on input line 395.
 (pdftex.def)             Requested size: 409.71692pt x 114.90834pt.
- [11 <./visualizations/career-tools.png> <./visualizations/daen-courses.png>]
-<visualizations/daen-tools.png, id=191, 1162.3425pt x 470.75874pt>
+<visualizations/daen-tools.png, id=202, 1162.3425pt x 470.75874pt>
 File: visualizations/daen-tools.png Graphic file (type png)
 <use visualizations/daen-tools.png>
-Package pdftex.def Info: visualizations/daen-tools.png  used on input line 217.
+Package pdftex.def Info: visualizations/daen-tools.png  used on input line 404.
 (pdftex.def)             Requested size: 409.71692pt x 165.93889pt.
-<visualizations/daen-rating.png, id=192, 1170.3725pt x 822.07124pt>
+ [16 <./visualizations/daen-courses.png> <./visualizations/daen-technologies.png>]
+<visualizations/daen-rating.png, id=211, 1170.3725pt x 822.07124pt>
 File: visualizations/daen-rating.png Graphic file (type png)
 <use visualizations/daen-rating.png>
-Package pdftex.def Info: visualizations/daen-rating.png  used on input line 224.
+Package pdftex.def Info: visualizations/daen-rating.png  used on input line 413.
 (pdftex.def)             Requested size: 409.71692pt x 287.79196pt.
-<visualizations/program-skills.png, id=193, 973.6375pt x 590.205pt>
+<visualizations/program-skills.png, id=212, 973.6375pt x 590.205pt>
 File: visualizations/program-skills.png Graphic file (type png)
 <use visualizations/program-skills.png>
-Package pdftex.def Info: visualizations/program-skills.png  used on input line 231.
+Package pdftex.def Info: visualizations/program-skills.png  used on input line 422.
 (pdftex.def)             Requested size: 409.71692pt x 248.36171pt.
- [12 <./visualizations/daen-technologies.png> <./visualizations/daen-tools.png> <./visualizations/daen-rating.png>]
-<visualizations/potential-improvements.png, id=204, 1183.42125pt x 690.58pt>
+ [17 <./visualizations/daen-tools.png> <./visualizations/daen-rating.png>]
+<visualizations/potential-improvements.png, id=221, 1183.42125pt x 690.58pt>
 File: visualizations/potential-improvements.png Graphic file (type png)
 <use visualizations/potential-improvements.png>
-Package pdftex.def Info: visualizations/potential-improvements.png  used on input line 238.
+Package pdftex.def Info: visualizations/potential-improvements.png  used on input line 431.
 (pdftex.def)             Requested size: 409.71692pt x 239.08281pt.
-<visualizations/daen-alumni-completed-certs.png, id=205, 1178.4025pt x 695.59875pt>
+ [18 <./visualizations/program-skills.png> <./visualizations/potential-improvements.png>]
+<visualizations/daen-alumni-completed-certs.png, id=230, 1178.4025pt x 695.59875pt>
 File: visualizations/daen-alumni-completed-certs.png Graphic file (type png)
 <use visualizations/daen-alumni-completed-certs.png>
-Package pdftex.def Info: visualizations/daen-alumni-completed-certs.png  used on input line 245.
+Package pdftex.def Info: visualizations/daen-alumni-completed-certs.png  used on input line 447.
 (pdftex.def)             Requested size: 409.71692pt x 241.84988pt.
- [13 <./visualizations/program-skills.png> <./visualizations/potential-improvements.png>] [14 <./visualizations/daen-alumni-completed-certs.png>] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+ [19 <./visualizations/daen-alumni-completed-certs.png>] [20] [21] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 550--551
 \OT1/cmr/m/n/12 https://catalog.gmu.edu/colleges-schools/engineering-computing/engineering/data-
  []
 
-[16] (./project-report.aux)
+[23] (./project-report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `project-report.out' has not changed.
-(rerunfilecheck)             Checksum: 0F78030F021F345CAE374EF007FE0A14;2350.
+(rerunfilecheck)             Checksum: 80E00D1C8AE4E3E9AC08A37EBF5E3FD7;2386.
  ) 
 Here is how much of TeX's memory you used:
- 29666 strings out of 474116
- 711645 string characters out of 5743682
+ 29681 strings out of 474116
+ 711799 string characters out of 5743682
  1936187 words of memory out of 5000000
- 51531 multiletter control sequences out of 15000+600000
- 564152 words of font info for 56 fonts, out of 8000000 for 9000
+ 51535 multiletter control sequences out of 15000+600000
+ 564836 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,6n,107p,1908b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on project-report.pdf (16 pages, 1592627 bytes).
+ 99i,6n,107p,1019b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on project-report.pdf (23 pages, 1618969 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
- 209 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
- 251 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 304 PDF objects out of 1000 (max. 8388607)
+ 236 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 243 words of extra memory for PDF output out of 10000 (max. 10000000)
 

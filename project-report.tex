@@ -21,16 +21,9 @@
 
 % Abstract
 \begin{abstract}
-The effectiveness of the DAEN program at George 
-Mason University is critical as the department aim to provide industry-relevant education, focusing on tools, technologies, and skills that are directly applicable in professional roles. This study presents analysis of the DAEN program at the College of Computing and Engineering at George Mason University, examining industry demands and program effectiveness through comprehensive alumni feedback. The research is conducted through alumni interviews. The interviews are designed with structured qualitative and quantitative questions to evaluate various aspects of program alumni including academic profile, employment trajectories, technical skill utilization in jobs, program technical skill utilization, and program feedback. Data was collected through anonymous interview recordings in either audio or text format based on the interview platform used. Audio interview recordings were processed confidentially using AWS transcribe to generate text transcripts. The text transcripts were cleaned and extracted into columns in a CSV file using local natural language processing toolkit. The data was visualized using Tableau to identify patterns in employment outcomes, 
-skill utilization, and areas for program enhancement. The data visualizations provide actionable insights for curriculum development 
-and program improvements, while also offering valuable metrics for 
-assessing the program's effectiveness in preparing graduates for 
-industry demands. This research contributes to the broader 
-understanding of DAEN program effectiveness.
+This study examines the effectiveness of the DAEN program at George Mason University's College of Computing and Engineering through comprehensive alumni feedback analysis. The research employs structured interviews with fourteen program alumni who graduated between 2019 and 2023, collecting data on employment trajectories, technical skill utilization, and program effectiveness. Interview data was processed using AWS services and natural language processing techniques to generate standardized analysis datasets. Through Tableau visualizations, the study identifies key patterns in employment outcomes, technology usage, and program satisfaction, with alumni rating the program an average of 3.7 out of 5. The findings reveal opportunities for curriculum enhancement, particularly in cloud computing and hands-on project work, while highlighting the program's strengths in database systems and machine learning education.
 
-\textbf{Keywords:} DAEN, Alumni, Employment, Program, Data,
- Analysis, Skill, Interview, Industry
+\textbf{Keywords:} DAEN, Alumni, Employment, Program, Data, Analysis, Skill, Interview, Industry
 \end{abstract}
 
 \newpage
@@ -44,6 +37,7 @@ AWS & Amazon Web Services\\
 M.S. & Master of Science\\
 NLP & Natural Language Processing\\
 MS & Microsoft\\
+ML & Machine Learning\\
 \end{tabular}
 \newpage
 
@@ -62,7 +56,7 @@ The report is intended for the DAEN program academic and
 administrative personnel including leaderships, stackholders, 
 and development team. The findings presented in this report will provide valuable insights for improving program effectiveness, curriculum design, and student outcomes.
 
-\subsection{Doc Structure}
+\subsection{Document Structure}
 This report is organized into seven main sections. The Introduction 
 establishes the research context and objectives. The Problem 
 Statement formulates the research questions and scope. 
@@ -74,78 +68,240 @@ insights obtained through visualizations. Finally, the Next
 Steps and Lessons Learned section proposes future research 
 directions and methodological improvements.
 
+\newpage
+
 % 2. Problem Statement Section
 \section{Problem Statement}
-\subsection{Alumni Feedback}
-There are 14 alumni participated in the interview who graduated between year of 2019 and 2023. From the 14 alumni interviewed, the average program rating is 3.7 out of 5, the average number of jobs held after graduation is 2 jobs. Data Analyst emerges as the most prevalent job title. The most frequently used technologies are python and SQL, the most frequently used cloud platform is AWS, the most used tools are Power BI and Tableau. The common area for program improvement reported by the 14 alumni are more hands-on projects, cloud, and practical application. 
-
-
-\subsection{Focus}
-The study aims to evaluate the gap between the most used skills in alumni career and the most valuable skills acquired in the program. The study also aims to identify the areas for program improvement and how well the program prepared alumni for their career.
-
 \subsection{Problem}
-The DAEN program faces significant challenges in evaluating program effectiveness as this represents the first systematic effort to gather alumni feedback. The absence of a centralized alumni database and limited alumni engagement mechanisms make it difficult to reach and collect comprehensive feedback from program graduates. After the alumni feedback was gathered and processed, some key problems with the program was discovered. First, the data reveals that while most alumni work with cloud platforms in their current roles, many received limited exposure to cloud technologies during their coursework. Second, there is a significant demand for hands-on projects as many alumni prefer the courseworks to be less theoretical but more practical. Additionally, alumni highlighted several emerging industry trends that should be incorporated into the curriculum, including AI Ethics, DataOps, and Machine Learning Operations, to better align with current market demands. These challenges must be addressed to maintain the program's effectiveness in preparing graduates for successful careers.
+The DAEN program faces significant challenges in evaluating program effectiveness as this represents the first systematic effort to gather alumni feedback. The absence of a centralized alumni database and limited alumni engagement mechanisms create substantial obstacles in reaching program graduates. The research revealed several critical issues:
+\begin{itemize}
+\item Limited Cloud Technology Exposure: While most alumni work extensively with cloud platforms in their current roles, many received insufficient exposure to these technologies during their coursework.
+\item Theoretical vs. Practical Balance: Alumni consistently highlighted a need for more hands-on projects, indicating a gap between theoretical knowledge and practical application.
+\item Emerging Technology Integration: The curriculum requires updates to incorporate emerging industry trends such as AI Ethics, DataOps, and Machine Learning Operations.
+\item Alumni Engagement: Establishing and maintaining contact with program graduates poses a significant challenge, impacting the program's ability to gather comprehensive feedback.
+\end{itemize}
+
+
+\subsection{Scope}
+This 15-week research project encompassed the development of interview methodology, conduct of alumni interviews, and comprehensive data analysis. The project faced significant initial challenges in establishing contact with alumni, as no centralized database existed. Over 50 alumni were contacted through LinkedIn, resulting in 14 successful interviews. The scope included:
+\begin{itemize}
+\item Development of structured interview questions
+\item Implementation of data collection protocols
+\item Creation of data processing pipeline
+\item Analysis and visualization of collected data
+\item Compilation of program improvement recommendations
+\end{itemize}
+A valuable outcome of this research is the creation of an initial alumni contact database, which will be shared with the GMU alumni office to facilitate future engagement efforts.
+
+\newpage
 
 % 3. Data Section
 \section{Data}
+\subsection{Data Product - Questions}
+The research design centered on a carefully structured set of interview questions designed to capture comprehensive insights about alumni experiences and outcomes. The questions were developed to gather both quantitative and qualitative data across several key domains:
+\begin{itemize}
+\item Academic Profile Assessment (Questions 1-2)
+\item Career Progression Tracking (Questions 3-6)
+\item Technical Skill Utilization (Questions 4, 7)
+\item Program Value Assessment (Questions 8-10)
+\item Post-Graduation Development (Question 11)
+\end{itemize}
+The interview questions were structured as follows:
+
+\begin{itemize}
+\item \textbf{Graduation Timeline}: "What year and semester did you graduate from the DAEN program?"
+
+Purpose: Establishes temporal context for program experience. Enables trend analysis across different graduation cohorts.
+
+\item \textbf{Degree Classification}: "Did you receive an M.S. or Certificate?"
+
+Purpose: Identifies academic credential level. Allows for segmentation of outcomes by program type.
+
+\item \textbf{Initial Employment}: "What was the title of your first job, the name of the company, and the general responsibilities?"
+
+Purpose: Maps initial career placement outcomes. Enables analysis of program-to-career transition. Provides insights into entry-level positions for DAEN graduates. Helps identify common career entry points.
+
+
+\item \textbf{Initial Technical Requirements}: "What technologies and tools did you use for this job title?"
+
+Purpose: Documents technology requirements for entry-level positions. Helps align curriculum with industry entry requirements. Identifies potential gaps in technical preparation. Provides baseline for technology evolution tracking.
+
+
+\item \textbf{Career Progression}: "What is your current job title, the name of the company and the general responsibilities?"
+
+Purpose: Tracks career advancement patterns. Enables comparison between entry and current positions. Identifies common career progression paths. Helps understand long-term career outcomes.
+
+
+\item \textbf{Job Mobility}: "How many jobs have you had since you graduated?"
+
+Purpose: Measures career mobility patterns. Indicates job market dynamics for DAEN graduates. Helps understand typical career progression timelines.
+
+\item \textbf{Technology Stack}: "List the most used technologies/tools in your career. (E.g. Programming language, framework, cloud, ML)"
+
+Purpose: Identifies critical technical skills for career success. Maps evolution of technology requirements over time. Helps prioritize curriculum updates. Provides insights into industry technology trends.
+
+
+\item \textbf{Program Value Assessment}: "What knowledge and skills that you acquired in the DAEN program have been the most valuable to your career? Can you specify the concepts/methodologies/technologies that were most valuable?"
+
+Purpose: Evaluates curriculum effectiveness. Identifies most impactful program elements. Helps validate current course offerings. Guides future curriculum development.
+
+
+\item \textbf{Gap Analysis}: "If DAEN program provided these specific courses, topics, or training, I would have been more prepared in my career..."
+
+Purpose: Identifies curriculum gaps. Captures emerging industry needs. Guides program enhancement efforts. Provides direct feedback for improvement.
+
+
+\item \textbf{Program Effectiveness}: "How well did the DAEN courses prepare you for your career? (Scale: 1 -- Not well at all, 5 -- Very good)"
+
+Purpose: Quantifies overall program effectiveness. Provides comparative metric across graduation years. Enables objective program assessment. Facilitates trend analysis over time.
+
+
+\item \textbf{Continuous Learning}: "Have you completed any courses/certifications since you graduated from the DAEN program?"
+
+Purpose: Identifies post-graduation learning needs. Reveals industry certification preferences. Helps understand skill gap mitigation strategies. Guides potential certification partnership opportunities.
+\end{itemize}
+
 \subsection{Collection Process}
-The data collection process was conducted through structured interviews with program alumni. Alumni were identified and contacted through LinkedIn for interview scheduling. The interviews were conducted through multiple platforms based on alumni preferences: MS Teams, Zoom, or written surveys via LinkedIn. MS Teams interviews were recorded in both audio and text formats, Zoom sessions were captured in audio format, while LinkedIn surveys were collected as text documents. Each interview followed a standardized set of 12 questions to ensure unbiased and consistent data collection, covering academic background, career trajectory, technical skill utilization, and program evaluation. Interviews were conducted remotely and recorded with permission. All alumni personal information, including names and contact details, remained confidential to maintain privacy and data integrity throughout the study. 
+The data collection process followed a systematic approach designed to ensure consistency and quality:
+\begin{itemize}
+\item \textbf{Alumni Identification}
+\begin{itemize}
+\item LinkedIn network search using DAEN program keywords
+\item Referral requests from identified alumni
+\item Collaboration with faculty for alumni contacts
+\end{itemize}
+\item \textbf{Interview Platforms}
+\begin{itemize}
+\item MS Teams (primary platform)
+\item Zoom (secondary platform)
+\item LinkedIn messaging (alternative option)
+\end{itemize}
 
-\subsection{Questions}
-The interviews were structured with the following 12 questions and asked in the same order for each participating alumni:
+\item \textbf{Recording Methods}
+\begin{itemize}
+\item Audio recordings (Teams and Zoom)
+\item Automated transcription (Teams)
+\item Direct text responses (LinkedIn)
+\end{itemize}
 
-1. What year and semester did you graduate from the DAEN program? 
-
-This question aims to establish the basic understanding of alumni's academic profile.
-
-2. Did you receive an M.S. or Certificate? 
-
-This question aims to establish further understanding of alumni's academic profile based on degree type achieved.
-
-3. What was the title of your first job, the name of the company, and the general responsibilities?
-
-This question collects information on alumni's initial employment trajectory post-graduation including job title, company name, and responsibilities to identify career progression.
-
-4. What technologies and tools did you use for this job title? 
-
-The question collects information on the most used technologies and tools in alumni's first job post-graduation to help identify industry trends.
-
-5. What is your current job title, the name of the company and the general responsibilities?
-
-This question collects information on alumni's current employment trajectory post-graduation including job title, company name, and responsibilities to identify career progression.
-
-6. How many jobs have you had since you graduated? 
-
-This question aims to establish the average number of jobs held by alumni post-graduation to identify employment trends.
-
-7. List the most used technologies/tools in your career. (E.g. Programming language, framework, cloud, ML) 
-
-This question collects information on the most used technologies and tools in alumni's career post-graduation to help identify industry trends.
-
-8. What knowledge and skills that you acquired in the DAEN program have been the most valuable to your career? Can you specify the concepts/methodologies/technologies that were most valuable? 
-
-This question aims to identify the most valuable skills acquired in the DAEN program that are directly applicable in alumni's professional roles.
-
-9. If DAEN program provided these specific courses, topics, or training, I would have been more prepared in my career… 
-
-This question aims to identify areas for program improvement based on alumni feedback.
-
-10. How well did the DAEN courses prepare you for your career? (Scale: 1 -- Not well at all, 5 -- Very good) 
-
-This question aims to evaluate the program's effectiveness in qualitative format in preparing graduates for industry demands.
-
-11. Have you completed any courses/certifications since you graduated from the DAEN program? 
-
-This question aims to identify alumni's continuous learning and professional development post-graduation.
-
+\item \textbf{Data Security}
+\begin{itemize}
+\item Secure storage of recordings
+\item Confidential handling of personal information
+\item Anonymous processing of responses
+\end{itemize}
+\end{itemize}
 \subsection{Data Process}
-The interview recordings were uploaded into the AWS S3 bucket for secure storage and processing. Audio recordings were converted to text using AWS Transcribe, while maintaining confidentiality throughout the process. To ensure anonymity, each alumni was assigned a unique identifier following the format CEC-DAEN-[Graduation Year]-[MS/Cert]-[Sequence Number]. The transcript data was processed using a local NLP toolkit to systematically extract relevant information through text tokenization, pattern matching, and keyword extraction techniques. This automated extraction process helped identify and categorize key information from the interview responses. The processed interview data was structured into 15 columns in a CSV file including: Alumni ID, Graduation Year, Degree Type, Total Jobs, Job Titles, Job Companies, Technologies Used, Tools Used, DAEN Program Courses, DAEN Program Technologies, DAEN Program Tools, DAEN Program Rating, DAEN Program Valuable Skills, DAEN Program Potential Improvements, and Course Certifications Completed. The CSV file was saved into the AWS S3 bucket and processed using custom Python script in AWS SageMaker. The script performs basic text preprocessing tasks, including removing empty spaces and standardizing string formats. To handle cases where alumni provided multiple program ratings, the script calculates their average value for consistent analysis. To facilitate data visualization in Tableau, the script transforms comma-separated values in multiple columns into separate numbered columns - for example, splitting a single job\_titles column containing multiple job titles into distinct columns such as job\_title\_1, job\_title\_2. This transformation expanded the original 15 columns into 62 columns, creating a structured format that is Tableau-compatible.
+The data processing pipeline consisted of several structured stages:
+\begin{itemize}
+\item \textbf{Storage and Security}
+\begin{itemize}
+\item Upload to AWS S3 bucket
+\item Encryption of sensitive data
+\item Access control implementation
+\end{itemize}
+\item \textbf{Transcription}
+\begin{itemize}
+\item AWS Transcribe processing
+\item Manual verification of transcripts
+\item Format standardization
+\end{itemize}
+
+\item \textbf{Data Extraction}
+\begin{itemize}
+\item NLP toolkit implementation
+\item Text tokenization and pattern matching
+\item Keyword extraction and categorization
+\end{itemize}
+
+\item \textbf{Structure and Format}
+\begin{itemize}
+\item CSV file creation with 15 primary columns
+\item Data transformation for visualization
+\item Quality control checks
+\end{itemize}
+\end{itemize}
+
 \subsection{Data Quality}
-The alumni responses are based on self-reported data, which may introduce bias or inaccuracies. To mitigate this potential limitation, interview questions were carefully designed to be clear and concise. To minimize interviewer influence, interviewers proceeded systematically through questions after each response was completed. Any responses containing ambiguous terminology were filtered out through human review and excluded from the analysis. To enable more meaningful data visualization and trend analysis, similar job titles and technologies were mapped to standardized categories through comprehensive research and human review. Job titles were consolidated based on standard industry classifications from job platforms like Indeed and LinkedIn - for example, business analyst, senior data analyst, and data analyst were all categorized as data analyst. Similarly, technologies were standardized by their core functionality - for instance, different SQL implementations including Oracle SQL, PostgreSQL, and MySQL were grouped under the broader category of SQL.
+Interview-based research inherently presents various potential biases and data quality challenges that must be carefully considered and addressed. Drawing from established research methodology literature (Bergelson et al., 2022; Nikiforova, 2020) and implementing practical measures in our research process, we established the following quality control framework:
+\begin{itemize}
+\item \textbf{Interview Structure Implementation}
+\begin{itemize}
+\item Utilized a standardized set of 12 structured questions asked in the same order for all participants
+\item Questions were designed to be neutral and open-ended to avoid leading the respondents
+\item Interviewers maintained consistent protocols by not prompting or suggesting answers
+\item Each interview followed the same format regardless of platform (MS Teams, Zoom, or written surveys)
+\item Responses were accepted as given without attempting to influence or modify them
+\end{itemize}
+\item \textbf{Data Collection Quality Controls}
+\begin{itemize}
+\item Recorded all interviews (audio or text) with participant permission
+\item Used AWS Transcribe consistently across all audio recordings to ensure uniform transcription quality
+\item Applied the same NLP toolkit for all text extraction to maintain processing consistency
+\item Implemented systematic data extraction procedures using local natural language processing tools
+\item Maintained standardized formats for data storage and processing
+\end{itemize}
+
+\item \textbf{Data Processing Standards}
+\begin{itemize}
+\item Created a uniform CSV structure with 15 standardized columns for all interview data
+\item Applied consistent text preprocessing tasks across all responses
+\item Used automated Python scripts in AWS SageMaker for standardizing string formats
+\item Implemented systematic handling of multiple responses through column expansion
+\item Maintained data anonymity through consistent identifier formatting (CEC-DAEN-[Graduation Year]-[MS/Cert]-[Sequence Number])
+\end{itemize}
+
+\item \textbf{Quality Verification Procedures}
+\begin{itemize}
+\item Conducted human review of ambiguous responses
+\item Filtered out unclear or inconsistent terminology
+\item Applied standardized categorization for job titles based on industry classifications
+\item Mapped similar technologies to standardized categories through comprehensive research
+\item Verified data transformations through multiple review cycles
+\end{itemize}
+\end{itemize}
+To ensure consistency and minimize bias in our data collection and processing:
+\begin{itemize}
+\item Interviewers proceeded systematically through questions without deviation
+\item No additional prompting or clarifying questions were used that might influence responses
+\item Raw responses were preserved in their original form before any processing
+\item All data processing steps were documented and applied uniformly
+\item Standardization procedures were based on established industry classifications rather than subjective interpretations
+\end{itemize}
+This systematic approach to data quality management was implemented to ensure that our findings would accurately represent the alumni feedback while minimizing potential biases or inconsistencies in data collection and processing.
+
+\newpage
 
 % 4. Analysis Section
 \section{Analysis}
-Analysis was conducted using Tableau visualizations of the processed interview data from 14 DAEN alumni. The data reveals several key patterns: the largest cohort graduated in 2020 (5 alumni), all participants held MS degrees, and most had held two jobs since graduation. Data Analyst emerged as the most common job title, while employment companies showed diverse distribution with no dominant industry pattern. In terms of technical skills, SQL, Python, and AWS dominated as the most utilized technologies, while MS Power BI, Tableau, and MS Excel were the most commonly used tools. Regarding program evaluation, DAEN 690 and Database courses received the highest value ratings, with SQL and Python being the most beneficial technologies learned. Machine learning and database systems stood out as the most valuable tools acquired from the program. The program received positive feedback with most alumni rating it 4 out of 5. Alumni particularly valued database and data modeling skills gained from the program, while suggesting enhancements in cloud computing coverage and hands-on project opportunities. Post-graduation certifications and additional courses showed wide variation with no significant patterns emerging.
+The analysis followed a structured approach to process and interpret the collected interview data:
+
+\noindent\textbf{Step 1: Data Organization}
+\begin{itemize}
+\item Compilation of raw interview transcripts
+\item Creation of standardized data templates
+\item Initial categorization of responses
+\end{itemize}
+\textbf{Step 2: Data Processing}
+\begin{itemize}
+\item Text analysis using NLP techniques
+\item Standardization of job titles and technologies
+\item Category development for skills and tools
+\end{itemize}
+\textbf{Step 3: Visualization Development}
+\begin{itemize}
+\item Selection of appropriate visualization types
+\item Implementation in Tableau
+\item Iterative refinement based on patterns
+\end{itemize}
+\textbf{Step 4: Pattern Analysis}
+\begin{itemize}
+\item Identification of trends across graduation years
+\item Analysis of technology usage patterns
+\item Assessment of program satisfaction metrics
+\end{itemize}
+
+\newpage
 
 % 5. Visualization Section
 \section{Visualization}
@@ -156,12 +312,15 @@ Analysis was conducted using Tableau visualizations of the processed interview d
     \caption{DAEN Alumni Graduation Year Distribution}
     \label{fig:graudation-year}
 \end{figure}
+The graduation year distribution reveals a concentration of respondents between 2019-2023, with the peak in 2020 (5 alumni). Notable challenges were encountered in reaching alumni who graduated before 2018.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{visualizations/degree-type.png}
     \caption{DAEN Alumni Degree Type Distribution}
     \label{fig:degree-type}
 \end{figure}
+All respondents held MS degrees, indicating our sample represents the full-degree program experience. The absence of certificate holders suggests a need for targeted outreach to this alumni group.
 
 \begin{figure}[H]
     \centering
@@ -169,6 +328,7 @@ Analysis was conducted using Tableau visualizations of the processed interview d
     \caption{Total Jobs Held by DAEN Alumni}
     \label{fig:total-jobs}
 \end{figure}
+The analysis reveals that approximately 43\% of alumni have held two jobs since graduation, suggesting active career progression.
 
 \begin{figure}[H]
     \centering
@@ -177,12 +337,16 @@ Analysis was conducted using Tableau visualizations of the processed interview d
     \label{fig:job-titles}
 \end{figure}
 
+The alumni job titles were consolidated, with roles like Business Analyst, Senior Data Analyst, and Lead Data Analyst grouped under "Data Analyst", which accounted for 43\% of jobs. This focused on core functions rather than seniority. Senior Data Scientist roles were similarly consolidated under the broader Data Scientist title.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{visualizations/job-companies.png}
     \caption{Companies Employing DAEN Alumni}
     \label{fig:job-companies}
 \end{figure}
+
+The diversity in employing companies demonstrates broad industry recognition of the program, with no single industry dominating employment outcomes. 
 
 \begin{figure}[H]
     \centering
@@ -191,6 +355,14 @@ Analysis was conducted using Tableau visualizations of the processed interview d
     \label{fig:career-technologies}
 \end{figure}
 
+Technology usage shows clear patterns:
+\begin{itemize}
+\item Programming Languages \& Frameworks: Python and SQL dominate (78\% usage)
+\item Cloud \& Infrastructure: AWS leads with 47\% adoption
+\item Database \& Data Storage: Snowflake is increasingly popular (33\% usage)
+\item Big Data \& AI: Spark and Databricks (55\% usage)
+\end{itemize}
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{visualizations/career-tools.png}
@@ -198,6 +370,13 @@ Analysis was conducted using Tableau visualizations of the processed interview d
     \label{fig:career-tools}
 \end{figure}
 
+Visualization and analytics tools show strong preferences:
+\begin{itemize}
+\item Business Intelligence \& Visualization: Power BI and Tableau lead adoption
+\item Data Entry \& Spreadsheet: Heavy use of MS Excel
+\item Data Processing \& Analytics: Popular in ArcGIS
+\item Workflow \& Project Management: Popular in Jira
+\end{itemize}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{visualizations/daen-courses.png}
@@ -205,12 +384,20 @@ Analysis was conducted using Tableau visualizations of the processed interview d
     \label{fig:daen-courses}
 \end{figure}
 
+Course evaluations highlight key program strengths:
+\begin{itemize}
+\item DAEN 690, Data Analytics Project (Capstone course)
+\item Database courses
+\item Required DAEN core courses showed strong practical value (AIT 580, Data Mining, STAT 515, Operations Research, AND DAEN 690)
+\end{itemize}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{visualizations/daen-technologies.png}
     \caption{Valuable Technologies Acquired in DAEN Program}
     \label{fig:daen-technologies}
 \end{figure}
+
+SQL and Python emerge as the most beneficial technologies learned, aligning well with industry demands as the most commonly used technologies in DAEN alumni careers.
 
 \begin{figure}[H]
     \centering
@@ -219,12 +406,16 @@ Analysis was conducted using Tableau visualizations of the processed interview d
     \label{fig:daen-tools}
 \end{figure}
 
+Machine learning and database systems emerged as the most valuable tools acquired from the program.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{visualizations/daen-rating.png}
     \caption{DAEN Alumni Program Ratings}
     \label{fig:daen-rating}
 \end{figure}
+
+The program received an average rating of 3.7 out of 5, with most alumni rating it 4 out of 5. This indicates relatively high satisfaction with their education while also suggesting areas for potential improvement.
 
 \begin{figure}[H]
     \centering
@@ -233,12 +424,23 @@ Analysis was conducted using Tableau visualizations of the processed interview d
     \label{fig:program-skills}
 \end{figure}
 
+Alumni particularly valued data modeling and database skills gained from the program. The emphasis on database systems and machine learning concepts appears to align well with industry needs. 
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{visualizations/potential-improvements.png}
     \caption{Potential Program Improvements Suggested by Alumni}
     \label{fig:potential-improvements}
 \end{figure}
+
+Three main areas for improvement emerged from alumni feedback:
+\begin{itemize}
+\item Increased emphasis on cloud computing technologies, particularly AWS as many alumni use cloud in their roles and received limited exposure during their coursework
+\item More hands-on project opportunities
+\item Enhanced coverage of emerging technologies
+\end{itemize}
+
+These suggestions reflect the evolving needs of the industry and the gap between academic training and professional requirements.
 
 \begin{figure}[H]
     \centering
@@ -247,42 +449,96 @@ Analysis was conducted using Tableau visualizations of the processed interview d
     \label{fig:completed-certifications}
 \end{figure}
 
+The alumni reported diverse certifications post-graduation, reflecting individual career paths and employer requirements. 
+
+\newpage
+
 % 6. Findings Section
 \section{Findings}
-Visualization analysis of interview data from 14 DAEN alumni provides comprehensive insights into the program's effectiveness and opportunities for curriculum enhancement. Among the participants, who graduated between 2019 and 2023, the largest cohort was from 2020 with five graduates. All participants completed their Master of Science degrees, representing a consistent focus on advanced education within the sample group.
+Key insights from the analysis are organized into several critical areas:
+
+\noindent\textbf{Program Demographics and Outcomes}
+\begin{itemize}
+\item Concentrated graduate distribution between 2019-2023
+\item 100\% MS degree completion rate among participants
+\item Average of 2 jobs held post-graduation
+\item Strong representation in data analyst roles
+\end{itemize}
+\textbf{Technical Skill Utilization}
+\begin{itemize}
+\item Dominant use of SQL and Python in professional roles
+\item High adoption of AWS cloud services
+\item Increasing importance of Snowflake and Databricks
+\item Significant focus on visualization tools (Power BI, Tableau)
+\end{itemize}
+\textbf{Program Effectiveness}
+\begin{itemize}
+\item Average program rating of 3.7 out of 5
+\item Strong satisfaction with database and ML coursework
+\item High value placed on hands-on project experience
+\item Notable impact of DAEN 690 capstone course
+\end{itemize}
+\textbf{Areas for Enhancement}
+\begin{itemize}
+\item Increased cloud computing coverage
+\item More emphasis on practical applications
+\item Integration of emerging technologies
+\item Enhanced focus on industry certification preparation
+\end{itemize}
+
+\newpage
 
 
-Approximately 43\% of the alumni have held two jobs since graduation, indicating active career progression. Data Analyst emerged as the most common job category among DAEN alumni. DAEN alumni are employed across a diverse range of companies, with no dominant industry pattern emerging. The companies include major orgnizations and span various sectors, reflecting the program's broad applicability and industry recognition.
+\section{Next Steps}
+\textbf{Program Development}
+\begin{itemize}
+\item Establish a structured process for regularly collecting alumni feedback through surveys and interviews.
+\item Implement a comprehensive strategy for alumni outreach and engagement to maintain strong connections.
+\item Develop an automated pipeline using NLP tools to efficiently process and analyze data from various interview formats.
+\item Create a secure, centralized database to confidentially store and manage alumni information and feedback.
+\end{itemize}
+\textbf{Curriculum Enhancement}
+\begin{itemize}
+\item Expand coursework and hands-on training focused on popular cloud platforms, particularly AWS.
+\item Incorporate more real-world, applied projects to allow students to directly apply their technical skills.
+\item Update curriculum to include emerging tools and methodologies like Snowflake, Databricks, and MLOps.
+\item Tailor program content to help students prepare for in-demand industry certifications.
+\end{itemize}
+\textbf{Alumni Engagement}
+\begin{itemize}
+\item Implement periodic surveys and outreach efforts to continuously gather alumni insights.
+\item Connect current students with alumni mentors to foster professional development.
+\item Organize alumni events and conferences to facilitate networking and collaboration.
+\item Offer workshops, webinars, and resources to help alumni stay current with industry changes.
+\end{itemize}
+\textit{Continuously protect the confidentiality of all alumni data collected and stored throughout these initiatives.}
 
+\newpage
 
-Technical skill utilization in alumni careers demonstrate clear trends in industry demands. SQL and Python rank as the most frequently utilized programming languages, aligning well with the program's educational emphasis, as these were also chosen as the most valuable technologies learned during the program. In terms of cloud technologies, AWS emerged as the dominant platform in professional settings, yet alumni suggest that cloud computing should be a key area for program improvement, as many received minimal cloud exposure during their studies. In the database domain, Snowflake has become the most widely used technology among graduates, complementing SQL and database systems which were ranked as the most valuable technology and tool acquired from the DAEN program. The alumni working with Snowflake have pursued professional certifications, including SnowPro Core and Advanced Architect credentials. Beyond traditional databases, graduates frequently utilize Spark and Databricks for Big Data processing and AI applications. Snowflake and Databricks are currently not covered in the DAEN program, indicating a potential implementation gap that could be addressed to enhance program relevance.
+\section{Lessons Learned}
+\textbf{Research Methodology}
+\begin{itemize}
+\item Engaging alumni early after graduation is crucial for encouraging their participation in the research.
+\item Designing clear, standardized interview questions helps elicit more specific, actionable responses.
+\item Offering multiple participation methods like video calls and surveys improves overall engagement.
+\item Consistent formatting and recording of interview data enables more efficient processing and higher-quality analysis.
+\end{itemize}
+\textbf{Data Collection}
+\begin{itemize}
+\item Leveraging professional networking platforms like LinkedIn allows efficient identification of and outreach to alumni.
+\item Ensuring all interview recordings use a single, compatible format streamlines the data processing workflow.
+\item Implementing robust privacy safeguards encourages alumni to share candid feedback.
+\item Conducting persistent, polite follow-up outreach helps maintain alumni engagement.
+\end{itemize}
+\textbf{Process Improvement}
+\begin{itemize}
+\item Developing NLP-based data extraction scripts and workflows accelerates analysis by minimizing manual effort.
+\item Consistently mapping job titles, technologies, and skills to industry classifications leads to more meaningful insights.
+\item Maintaining detailed documentation of the research process ensures knowledge retention for future iterations.
+\item Incorporating input from stakeholders and subject matter experts iteratively refines the approach and findings.
+\end{itemize}
 
-
-The program's effectiveness is reflected in its average rating of 3.7 out of 5, with the majority of alumni rating it 4 out of 5, indicating relatively high satisfaction with their education. DAEN 690 and Database courses are particularly highly valued by alumni, with machine learning and database systems highlighted as the most valuable tools acquired during the program. Data modeling and database skills were cited as crucial benefits of the program, demonstrating the curriculum's success in these areas.
-
-
-Despite overall positive feedback, the analysis revealed several opportunities for program enhancement. Alumni consistently suggested increased emphasis on cloud computing technologies, particularly AWS, and recommended more hands-on project opportunities to bridge theoretical knowledge with practical application. There was also a clear desire for enhanced coverage of emerging technologies and methodologies, with a greater focus on practical, industry-relevant applications.
-
-
-Post-graduation professional development patterns indicate ongoing learning needs in specific areas. Many alumni are pursing AWS certifications. While alumni pursue various professional certifications, there's no dominant pattern in their choices, as most certifications are completed based on specific job requirements and often sponsored by employers. This diversity in certification paths suggests an opportunity for the DAEN program to integrate specialized certification preparation into its curriculum, better aligning with industry demands and supporting graduates' career advancement.
-
-
-% 7. Next Steps/Lessons Learned Section
-\section{Next Steps and Lessons Learned}
-\subsection{Next Steps}
-The challenges encountered during this research highlighted the critical need for a systematic approach to alumni engagement. Beyond the initial hurdle of establishing contact, we discovered that motivating alumni to provide program-related feedback requires a well-designed outreach strategy. To ensure continuous program improvement, the department needs to implement a structured procedure for consistently collecting and analyzing alumni feedback. This systematic approach would not only streamline communication channels but also create a sustainable framework for gathering valuable insights about program effectiveness over time. Additionally, such a structured engagement system would enable the program to provide lifelong learning opportunities for alumni while staying current with industry demands. This ongoing connection would help maintain curriculum relevance and foster a strong sense of community that extends well beyond graduation.
-
-
-Another critical lesson learned involves the design of survey questions to elicit more precise responses from alumni. During data collection, we observed that alumni often provided generalized answers due to the time elapsed since graduation, making it difficult to remember specific course details and experiences. These vague responses frequently had to be excluded from our analysis, reducing the overall quality of insights. Future surveys should strike a balance between collecting specific technical information and maintaining enough breadth to facilitate meaningful data categorization and analysis. This refined approach to question design would yield more actionable insights while enabling effective grouping of technologies, tools, and skills.
-
-
-A streamlined approach to data processing is also essential for future research efforts. Our current data collection process revealed challenges with inconsistent interview recording formats, requiring individual handling of each case. While we utilized a local natural language processing toolkit for transcript extraction, a more robust design is needed to maximize information capture from interviews. Developing an automated processing pipeline would significantly improve the efficiency of analysis and visualization production. Time should be invested in establishing an optimal data analysis workflow that can handle diverse input formats while maintaining consistency in output generation.
-
-
-Maintaining confidentiality of alumni information remains a paramount concern for future research. Survey and interview protocols should be carefully designed to exclude personal information while still gathering meaningful data. Creating a comfortable and secure interview environment is equally important, as it encourages alumni to provide candid feedback about their program experiences. This emphasis on privacy and comfort will help ensure the collection of honest, comprehensive insights that can genuinely contribute to program improvement.
-
-\subsection{Lessons Learned}
-Engaging alumni in program improvement initiatives presents a significant challenge, as graduates typically focus on their career progression and move forward from their academic experiences. The key to overcoming this challenge lies in implementing a systematic approach to alumni engagement, offering meaningful incentives for participation, and creating a comfortable interview environment that encourages open dialogue. Given that data collection emerged as the most challenging aspect of this research, future discussions should prioritize developing effective strategies for gathering alumni feedback. These strategies should acknowledge the time constraints and competing priorities that alumni face while still maintaining their involvement in program development.
+\newpage
 
 % Appendices
 \begin{appendices}
@@ -291,8 +547,28 @@ This research, conducted through DAEN 698: Research Project, represents a signif
 
 \section{References}
 \begin{thebibliography}{9}
-    \bibitem{gmu} George Mason University. (2024). Data Analytics Engineering, MS. Retrieved from https://catalog.gmu.edu/colleges-schools/engineering-computing/engineering/data-analytics-engineering-ms/
-    \end{thebibliography}
+\bibitem{gmu} George Mason University. (2024). Data Analytics Engineering, MS. Retrieved from https://catalog.gmu.edu/colleges-schools/engineering-computing/engineering/data-analytics-engineering-ms/
+\bibitem{bergelson} Bergelson, I., Tracy, C., \& Takacs, E. (2022). Best Practices for Reducing Bias in the Interview Process. Current Urology Reports, 23(11), 319-325.
+\bibitem{nikiforova} Nikiforova, A. (2020). Definition and Evaluation of Data Quality: User-Oriented Data Object-Driven Approach to Data Quality Assessment. Baltic Journal of Modern Computing, 8(3), 391-432.
+\end{thebibliography}
+
+\section{Research Biases and Data Quality Considerations}
+In conducting this alumni interview research, we identified several key sources of potential bias and inaccuracy that could impact our findings. Despite implementing systematic controls, these factors should be considered when interpreting the results:
+\begin{itemize}
+\item \textbf{Selection Bias}
+\begin{itemize}
+\item Sample limited to LinkedIn-active alumni from 2019-2023
+\item Response rate of 14 out of 50 contacted alumni
+\item Potential over-representation of successful graduates
+\end{itemize}
+\item \textbf{Data Accuracy}
+\begin{itemize}
+\item Memory recall variations depending on graduation year
+\item Standardization requirements for technical terminology
+\end{itemize}
+\end{itemize}
+While these limitations exist, our methodological controls and transparent reporting help maintain the integrity of the findings while acknowledging areas for potential improvement in future research.
+
 \end{appendices}
 
 \end{document}
