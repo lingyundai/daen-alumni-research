@@ -1,0 +1,1374 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0805.0415                               -->
+<workbook original-version='18.1' source-build='2023.2.1 (20232.23.0805.0415)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='preprocessed-information-extraction' inline='true' name='federated.0ap29f91o1ij3212uqvjl1vp90h1' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='preprocessed-information-extraction' name='textscan.1x26ouf0yabj6u142rd4z0dvpjlo'>
+            <connection class='textscan' directory='/Users/lingyundai/Desktop/DAEN698' filename='preprocessed-information-extraction.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1x26ouf0yabj6u142rd4z0dvpjlo' name='preprocessed-information-extraction.csv' table='[preprocessed-information-extraction#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='alumni_id' ordinal='0' />
+            <column datatype='integer' name='graduation_year' ordinal='1' />
+            <column datatype='string' name='degree_type' ordinal='2' />
+            <column datatype='integer' name='total_jobs' ordinal='3' />
+            <column datatype='real' name='daen_program_rating' ordinal='4' />
+            <column datatype='string' name='job_titles_1' ordinal='5' />
+            <column datatype='string' name='job_titles_2' ordinal='6' />
+            <column datatype='string' name='job_companies_1' ordinal='7' />
+            <column datatype='string' name='job_companies_2' ordinal='8' />
+            <column datatype='string' name='job_companies_3' ordinal='9' />
+            <column datatype='string' name='technologies_used_1' ordinal='10' />
+            <column datatype='string' name='technologies_used_2' ordinal='11' />
+            <column datatype='string' name='technologies_used_3' ordinal='12' />
+            <column datatype='string' name='technologies_used_4' ordinal='13' />
+            <column datatype='string' name='technologies_used_5' ordinal='14' />
+            <column datatype='string' name='technologies_used_6' ordinal='15' />
+            <column datatype='string' name='technologies_used_7' ordinal='16' />
+            <column datatype='string' name='technologies_used_8' ordinal='17' />
+            <column datatype='string' name='technologies_used_9' ordinal='18' />
+            <column datatype='string' name='technologies_used_10' ordinal='19' />
+            <column datatype='string' name='technologies_used_11' ordinal='20' />
+            <column datatype='string' name='technologies_used_12' ordinal='21' />
+            <column datatype='string' name='technologies_used_13' ordinal='22' />
+            <column datatype='string' name='tools_used_1' ordinal='23' />
+            <column datatype='string' name='tools_used_2' ordinal='24' />
+            <column datatype='string' name='tools_used_3' ordinal='25' />
+            <column datatype='string' name='tools_used_4' ordinal='26' />
+            <column datatype='string' name='tools_used_5' ordinal='27' />
+            <column datatype='string' name='tools_used_6' ordinal='28' />
+            <column datatype='string' name='tools_used_7' ordinal='29' />
+            <column datatype='string' name='tools_used_8' ordinal='30' />
+            <column datatype='string' name='daen_program_courses_1' ordinal='31' />
+            <column datatype='string' name='daen_program_courses_2' ordinal='32' />
+            <column datatype='string' name='daen_program_courses_3' ordinal='33' />
+            <column datatype='string' name='daen_program_courses_4' ordinal='34' />
+            <column datatype='string' name='daen_program_courses_5' ordinal='35' />
+            <column datatype='string' name='daen_program_courses_6' ordinal='36' />
+            <column datatype='string' name='daen_program_courses_7' ordinal='37' />
+            <column datatype='string' name='daen_program_tools_1' ordinal='38' />
+            <column datatype='string' name='daen_program_tools_2' ordinal='39' />
+            <column datatype='string' name='daen_program_tools_3' ordinal='40' />
+            <column datatype='string' name='daen_program_tools_4' ordinal='41' />
+            <column datatype='string' name='daen_program_technologies_1' ordinal='42' />
+            <column datatype='string' name='daen_program_technologies_2' ordinal='43' />
+            <column datatype='string' name='daen_program_technologies_3' ordinal='44' />
+            <column datatype='string' name='daen_program_technologies_4' ordinal='45' />
+            <column datatype='string' name='daen_program_valuable_skills_1' ordinal='46' />
+            <column datatype='string' name='daen_program_valuable_skills_2' ordinal='47' />
+            <column datatype='string' name='daen_program_valuable_skills_3' ordinal='48' />
+            <column datatype='string' name='daen_program_valuable_skills_4' ordinal='49' />
+            <column datatype='string' name='daen_program_valuable_skills_5' ordinal='50' />
+            <column datatype='string' name='daen_program_valuable_skills_6' ordinal='51' />
+            <column datatype='string' name='daen_program_potential_improvement_1' ordinal='52' />
+            <column datatype='string' name='daen_program_potential_improvement_2' ordinal='53' />
+            <column datatype='string' name='daen_program_potential_improvement_3' ordinal='54' />
+            <column datatype='string' name='daen_program_potential_improvement_4' ordinal='55' />
+            <column datatype='string' name='daen_program_potential_improvement_5' ordinal='56' />
+            <column datatype='string' name='daen_program_potential_improvement_6' ordinal='57' />
+            <column datatype='string' name='course_certification_completed_1' ordinal='58' />
+            <column datatype='string' name='course_certification_completed_2' ordinal='59' />
+            <column datatype='string' name='course_certification_completed_3' ordinal='60' />
+            <column datatype='string' name='course_certification_completed_4' ordinal='61' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1x26ouf0yabj6u142rd4z0dvpjlo' name='preprocessed-information-extraction.csv' table='[preprocessed-information-extraction#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='alumni_id' ordinal='0' />
+            <column datatype='integer' name='graduation_year' ordinal='1' />
+            <column datatype='string' name='degree_type' ordinal='2' />
+            <column datatype='integer' name='total_jobs' ordinal='3' />
+            <column datatype='real' name='daen_program_rating' ordinal='4' />
+            <column datatype='string' name='job_titles_1' ordinal='5' />
+            <column datatype='string' name='job_titles_2' ordinal='6' />
+            <column datatype='string' name='job_companies_1' ordinal='7' />
+            <column datatype='string' name='job_companies_2' ordinal='8' />
+            <column datatype='string' name='job_companies_3' ordinal='9' />
+            <column datatype='string' name='technologies_used_1' ordinal='10' />
+            <column datatype='string' name='technologies_used_2' ordinal='11' />
+            <column datatype='string' name='technologies_used_3' ordinal='12' />
+            <column datatype='string' name='technologies_used_4' ordinal='13' />
+            <column datatype='string' name='technologies_used_5' ordinal='14' />
+            <column datatype='string' name='technologies_used_6' ordinal='15' />
+            <column datatype='string' name='technologies_used_7' ordinal='16' />
+            <column datatype='string' name='technologies_used_8' ordinal='17' />
+            <column datatype='string' name='technologies_used_9' ordinal='18' />
+            <column datatype='string' name='technologies_used_10' ordinal='19' />
+            <column datatype='string' name='technologies_used_11' ordinal='20' />
+            <column datatype='string' name='technologies_used_12' ordinal='21' />
+            <column datatype='string' name='technologies_used_13' ordinal='22' />
+            <column datatype='string' name='tools_used_1' ordinal='23' />
+            <column datatype='string' name='tools_used_2' ordinal='24' />
+            <column datatype='string' name='tools_used_3' ordinal='25' />
+            <column datatype='string' name='tools_used_4' ordinal='26' />
+            <column datatype='string' name='tools_used_5' ordinal='27' />
+            <column datatype='string' name='tools_used_6' ordinal='28' />
+            <column datatype='string' name='tools_used_7' ordinal='29' />
+            <column datatype='string' name='tools_used_8' ordinal='30' />
+            <column datatype='string' name='daen_program_courses_1' ordinal='31' />
+            <column datatype='string' name='daen_program_courses_2' ordinal='32' />
+            <column datatype='string' name='daen_program_courses_3' ordinal='33' />
+            <column datatype='string' name='daen_program_courses_4' ordinal='34' />
+            <column datatype='string' name='daen_program_courses_5' ordinal='35' />
+            <column datatype='string' name='daen_program_courses_6' ordinal='36' />
+            <column datatype='string' name='daen_program_courses_7' ordinal='37' />
+            <column datatype='string' name='daen_program_tools_1' ordinal='38' />
+            <column datatype='string' name='daen_program_tools_2' ordinal='39' />
+            <column datatype='string' name='daen_program_tools_3' ordinal='40' />
+            <column datatype='string' name='daen_program_tools_4' ordinal='41' />
+            <column datatype='string' name='daen_program_technologies_1' ordinal='42' />
+            <column datatype='string' name='daen_program_technologies_2' ordinal='43' />
+            <column datatype='string' name='daen_program_technologies_3' ordinal='44' />
+            <column datatype='string' name='daen_program_technologies_4' ordinal='45' />
+            <column datatype='string' name='daen_program_valuable_skills_1' ordinal='46' />
+            <column datatype='string' name='daen_program_valuable_skills_2' ordinal='47' />
+            <column datatype='string' name='daen_program_valuable_skills_3' ordinal='48' />
+            <column datatype='string' name='daen_program_valuable_skills_4' ordinal='49' />
+            <column datatype='string' name='daen_program_valuable_skills_5' ordinal='50' />
+            <column datatype='string' name='daen_program_valuable_skills_6' ordinal='51' />
+            <column datatype='string' name='daen_program_potential_improvement_1' ordinal='52' />
+            <column datatype='string' name='daen_program_potential_improvement_2' ordinal='53' />
+            <column datatype='string' name='daen_program_potential_improvement_3' ordinal='54' />
+            <column datatype='string' name='daen_program_potential_improvement_4' ordinal='55' />
+            <column datatype='string' name='daen_program_potential_improvement_5' ordinal='56' />
+            <column datatype='string' name='daen_program_potential_improvement_6' ordinal='57' />
+            <column datatype='string' name='course_certification_completed_1' ordinal='58' />
+            <column datatype='string' name='course_certification_completed_2' ordinal='59' />
+            <column datatype='string' name='course_certification_completed_3' ordinal='60' />
+            <column datatype='string' name='course_certification_completed_4' ordinal='61' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>alumni_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[alumni_id]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>alumni_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>graduation_year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[graduation_year]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>graduation_year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>degree_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[degree_type]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>degree_type</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_jobs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_jobs]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>total_jobs</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_rating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[daen_program_rating]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_rating</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>job_titles_1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[job_titles_1]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>job_titles_1</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>job_titles_2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[job_titles_2]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>job_titles_2</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>job_companies_1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[job_companies_1]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>job_companies_1</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>job_companies_2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[job_companies_2]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>job_companies_2</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>job_companies_3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[job_companies_3]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>job_companies_3</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>technologies_used_1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[technologies_used_1]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>technologies_used_1</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>technologies_used_2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[technologies_used_2]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>technologies_used_2</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>technologies_used_3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[technologies_used_3]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>technologies_used_3</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>technologies_used_4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[technologies_used_4]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>technologies_used_4</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>technologies_used_5</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[technologies_used_5]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>technologies_used_5</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>technologies_used_6</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[technologies_used_6]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>technologies_used_6</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>technologies_used_7</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[technologies_used_7]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>technologies_used_7</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>technologies_used_8</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[technologies_used_8]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>technologies_used_8</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>technologies_used_9</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[technologies_used_9]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>technologies_used_9</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>technologies_used_10</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[technologies_used_10]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>technologies_used_10</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>technologies_used_11</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[technologies_used_11]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>technologies_used_11</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>technologies_used_12</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[technologies_used_12]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>technologies_used_12</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>technologies_used_13</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[technologies_used_13]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>technologies_used_13</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tools_used_1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tools_used_1]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>tools_used_1</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tools_used_2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tools_used_2]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>tools_used_2</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tools_used_3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tools_used_3]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>tools_used_3</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tools_used_4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tools_used_4]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>tools_used_4</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tools_used_5</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tools_used_5]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>tools_used_5</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tools_used_6</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tools_used_6]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>tools_used_6</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tools_used_7</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tools_used_7]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>tools_used_7</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tools_used_8</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tools_used_8]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>tools_used_8</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_courses_1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_courses_1]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_courses_1</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_courses_2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_courses_2]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_courses_2</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_courses_3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_courses_3]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_courses_3</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_courses_4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_courses_4]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_courses_4</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_courses_5</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_courses_5]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_courses_5</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_courses_6</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_courses_6]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_courses_6</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_courses_7</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_courses_7]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_courses_7</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_tools_1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_tools_1]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_tools_1</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_tools_2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_tools_2]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_tools_2</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_tools_3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_tools_3]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_tools_3</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_tools_4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_tools_4]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_tools_4</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_technologies_1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_technologies_1]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_technologies_1</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_technologies_2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_technologies_2]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_technologies_2</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_technologies_3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_technologies_3]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_technologies_3</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_technologies_4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_technologies_4]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_technologies_4</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_valuable_skills_1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_valuable_skills_1]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_valuable_skills_1</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_valuable_skills_2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_valuable_skills_2]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_valuable_skills_2</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_valuable_skills_3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_valuable_skills_3]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_valuable_skills_3</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_valuable_skills_4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_valuable_skills_4]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_valuable_skills_4</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_valuable_skills_5</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_valuable_skills_5]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_valuable_skills_5</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_valuable_skills_6</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_valuable_skills_6]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_valuable_skills_6</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_potential_improvement_1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_potential_improvement_1]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_potential_improvement_1</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_potential_improvement_2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_potential_improvement_2]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_potential_improvement_2</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_potential_improvement_3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_potential_improvement_3]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_potential_improvement_3</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_potential_improvement_4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_potential_improvement_4]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_potential_improvement_4</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_potential_improvement_5</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_potential_improvement_5]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_potential_improvement_5</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daen_program_potential_improvement_6</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[daen_program_potential_improvement_6]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>daen_program_potential_improvement_6</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>course_certification_completed_1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[course_certification_completed_1]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>course_certification_completed_1</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>course_certification_completed_2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[course_certification_completed_2]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>course_certification_completed_2</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>course_certification_completed_3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[course_certification_completed_3]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>course_certification_completed_3</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>course_certification_completed_4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[course_certification_completed_4]</local-name>
+            <parent-name>[preprocessed-information-extraction.csv]</parent-name>
+            <remote-alias>course_certification_completed_4</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='preprocessed-information-extraction.csv' datatype='table' name='[__tableau_internal_object_id__].[preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276]' role='measure' type='quantitative' />
+      <column caption='Alumni Id' datatype='string' name='[alumni_id]' role='dimension' type='nominal' />
+      <column caption='Course Certification Completed 1' datatype='string' name='[course_certification_completed_1]' role='dimension' type='nominal' />
+      <column caption='Course Certification Completed 2' datatype='string' name='[course_certification_completed_2]' role='dimension' type='nominal' />
+      <column caption='Course Certification Completed 3' datatype='string' name='[course_certification_completed_3]' role='dimension' type='nominal' />
+      <column caption='Daen Program Courses 1' datatype='string' name='[daen_program_courses_1]' role='dimension' type='nominal' />
+      <column caption='Daen Program Courses 2' datatype='string' name='[daen_program_courses_2]' role='dimension' type='nominal' />
+      <column caption='Daen Program Courses 3' datatype='string' name='[daen_program_courses_3]' role='dimension' type='nominal' />
+      <column caption='Daen Program Courses 4' datatype='string' name='[daen_program_courses_4]' role='dimension' type='nominal' />
+      <column caption='Daen Program Courses 5' datatype='string' name='[daen_program_courses_5]' role='dimension' type='nominal' />
+      <column caption='Daen Program Courses 6' datatype='string' name='[daen_program_courses_6]' role='dimension' type='nominal' />
+      <column caption='Daen Program Courses 7' datatype='string' name='[daen_program_courses_7]' role='dimension' type='nominal' />
+      <column caption='Daen Program Potential Improvement 1' datatype='string' name='[daen_program_potential_improvement_1]' role='dimension' type='nominal' />
+      <column caption='Daen Program Potential Improvement 2' datatype='string' name='[daen_program_potential_improvement_2]' role='dimension' type='nominal' />
+      <column caption='Daen Program Potential Improvement 3' datatype='string' name='[daen_program_potential_improvement_3]' role='dimension' type='nominal' />
+      <column caption='Daen Program Potential Improvement 4' datatype='string' name='[daen_program_potential_improvement_4]' role='dimension' type='nominal' />
+      <column caption='Daen Program Potential Improvement 5' datatype='string' name='[daen_program_potential_improvement_5]' role='dimension' type='nominal' />
+      <column caption='Daen Program Potential Improvement 6' datatype='string' name='[daen_program_potential_improvement_6]' role='dimension' type='nominal' />
+      <column caption='Daen Program Potential Improvement 7' datatype='string' name='[daen_program_potential_improvement_7]' role='dimension' type='nominal' />
+      <column caption='Daen Program Potential Improvement 8' datatype='string' name='[daen_program_potential_improvement_8]' role='dimension' type='nominal' />
+      <column caption='Daen Program Potential Improvement 9' datatype='string' name='[daen_program_potential_improvement_9]' role='dimension' type='nominal' />
+      <column caption='Daen Program Rating' datatype='real' name='[daen_program_rating]' role='measure' type='quantitative' />
+      <column caption='Daen Program Technologies 1' datatype='string' name='[daen_program_technologies_1]' role='dimension' type='nominal' />
+      <column caption='Daen Program Technologies 2' datatype='string' name='[daen_program_technologies_2]' role='dimension' type='nominal' />
+      <column caption='Daen Program Technologies 3' datatype='string' name='[daen_program_technologies_3]' role='dimension' type='nominal' />
+      <column caption='Daen Program Technologies 4' datatype='string' name='[daen_program_technologies_4]' role='dimension' type='nominal' />
+      <column caption='Daen Program Tools 1' datatype='string' name='[daen_program_tools_1]' role='dimension' type='nominal' />
+      <column caption='Daen Program Tools 2' datatype='string' name='[daen_program_tools_2]' role='dimension' type='nominal' />
+      <column caption='Daen Program Tools 3' datatype='string' name='[daen_program_tools_3]' role='dimension' type='nominal' />
+      <column caption='Daen Program Valuable Skills 1' datatype='string' name='[daen_program_valuable_skills_1]' role='dimension' type='nominal' />
+      <column caption='Daen Program Valuable Skills 2' datatype='string' name='[daen_program_valuable_skills_2]' role='dimension' type='nominal' />
+      <column caption='Daen Program Valuable Skills 3' datatype='string' name='[daen_program_valuable_skills_3]' role='dimension' type='nominal' />
+      <column caption='Daen Program Valuable Skills 4' datatype='string' name='[daen_program_valuable_skills_4]' role='dimension' type='nominal' />
+      <column caption='Daen Program Valuable Skills 5' datatype='string' name='[daen_program_valuable_skills_5]' role='dimension' type='nominal' />
+      <column caption='Daen Program Valuable Skills 6' datatype='string' name='[daen_program_valuable_skills_6]' role='dimension' type='nominal' />
+      <column caption='Degree Type' datatype='string' name='[degree_type]' role='dimension' type='nominal' />
+      <column caption='Graduation Year' datatype='integer' name='[graduation_year]' role='dimension' type='quantitative' />
+      <column caption='Job Companies 1' datatype='string' name='[job_companies_1]' role='dimension' type='nominal' />
+      <column caption='Job Companies 2' datatype='string' name='[job_companies_2]' role='dimension' type='nominal' />
+      <column caption='Job Companies 3' datatype='string' name='[job_companies_3]' role='dimension' type='nominal' />
+      <column caption='Job Titles 1' datatype='string' name='[job_titles_1]' role='dimension' type='nominal' />
+      <column caption='Job Titles 2' datatype='string' name='[job_titles_2]' role='dimension' type='nominal' />
+      <column caption='Technologies Used 1' datatype='string' name='[technologies_used_1]' role='dimension' type='nominal' />
+      <column caption='Technologies Used 2' datatype='string' name='[technologies_used_2]' role='dimension' type='nominal' />
+      <column caption='Technologies Used 3' datatype='string' name='[technologies_used_3]' role='dimension' type='nominal' />
+      <column caption='Technologies Used 4' datatype='string' name='[technologies_used_4]' role='dimension' type='nominal' />
+      <column caption='Technologies Used 5' datatype='string' name='[technologies_used_5]' role='dimension' type='nominal' />
+      <column caption='Technologies Used 6' datatype='string' name='[technologies_used_6]' role='dimension' type='nominal' />
+      <column caption='Technologies Used 7' datatype='string' name='[technologies_used_7]' role='dimension' type='nominal' />
+      <column caption='Technologies Used 8' datatype='string' name='[technologies_used_8]' role='dimension' type='nominal' />
+      <column caption='Technologies Used 9' datatype='string' name='[technologies_used_9]' role='dimension' type='nominal' />
+      <column caption='Tools Used 1' datatype='string' name='[tools_used_1]' role='dimension' type='nominal' />
+      <column caption='Tools Used 2' datatype='string' name='[tools_used_2]' role='dimension' type='nominal' />
+      <column caption='Tools Used 3' datatype='string' name='[tools_used_3]' role='dimension' type='nominal' />
+      <column caption='Tools Used 4' datatype='string' name='[tools_used_4]' role='dimension' type='nominal' />
+      <column caption='Tools Used 5' datatype='string' name='[tools_used_5]' role='dimension' type='nominal' />
+      <column caption='Tools Used 6' datatype='string' name='[tools_used_6]' role='dimension' type='nominal' />
+      <column caption='Tools Used 7' datatype='string' name='[tools_used_7]' role='dimension' type='nominal' />
+      <column caption='Total Jobs' datatype='integer' name='[total_jobs]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='preprocessed-information-extraction.csv' id='preprocessed-information-extraction.csv_F0A8421BED6B4E25AAB19DA47DA28276'>
+            <properties context=''>
+              <relation connection='textscan.1x26ouf0yabj6u142rd4z0dvpjlo' name='preprocessed-information-extraction.csv' table='[preprocessed-information-extraction#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='alumni_id' ordinal='0' />
+                  <column datatype='integer' name='graduation_year' ordinal='1' />
+                  <column datatype='string' name='degree_type' ordinal='2' />
+                  <column datatype='integer' name='total_jobs' ordinal='3' />
+                  <column datatype='real' name='daen_program_rating' ordinal='4' />
+                  <column datatype='string' name='job_titles_1' ordinal='5' />
+                  <column datatype='string' name='job_titles_2' ordinal='6' />
+                  <column datatype='string' name='job_companies_1' ordinal='7' />
+                  <column datatype='string' name='job_companies_2' ordinal='8' />
+                  <column datatype='string' name='job_companies_3' ordinal='9' />
+                  <column datatype='string' name='technologies_used_1' ordinal='10' />
+                  <column datatype='string' name='technologies_used_2' ordinal='11' />
+                  <column datatype='string' name='technologies_used_3' ordinal='12' />
+                  <column datatype='string' name='technologies_used_4' ordinal='13' />
+                  <column datatype='string' name='technologies_used_5' ordinal='14' />
+                  <column datatype='string' name='technologies_used_6' ordinal='15' />
+                  <column datatype='string' name='technologies_used_7' ordinal='16' />
+                  <column datatype='string' name='technologies_used_8' ordinal='17' />
+                  <column datatype='string' name='technologies_used_9' ordinal='18' />
+                  <column datatype='string' name='technologies_used_10' ordinal='19' />
+                  <column datatype='string' name='technologies_used_11' ordinal='20' />
+                  <column datatype='string' name='technologies_used_12' ordinal='21' />
+                  <column datatype='string' name='technologies_used_13' ordinal='22' />
+                  <column datatype='string' name='tools_used_1' ordinal='23' />
+                  <column datatype='string' name='tools_used_2' ordinal='24' />
+                  <column datatype='string' name='tools_used_3' ordinal='25' />
+                  <column datatype='string' name='tools_used_4' ordinal='26' />
+                  <column datatype='string' name='tools_used_5' ordinal='27' />
+                  <column datatype='string' name='tools_used_6' ordinal='28' />
+                  <column datatype='string' name='tools_used_7' ordinal='29' />
+                  <column datatype='string' name='tools_used_8' ordinal='30' />
+                  <column datatype='string' name='daen_program_courses_1' ordinal='31' />
+                  <column datatype='string' name='daen_program_courses_2' ordinal='32' />
+                  <column datatype='string' name='daen_program_courses_3' ordinal='33' />
+                  <column datatype='string' name='daen_program_courses_4' ordinal='34' />
+                  <column datatype='string' name='daen_program_courses_5' ordinal='35' />
+                  <column datatype='string' name='daen_program_courses_6' ordinal='36' />
+                  <column datatype='string' name='daen_program_courses_7' ordinal='37' />
+                  <column datatype='string' name='daen_program_tools_1' ordinal='38' />
+                  <column datatype='string' name='daen_program_tools_2' ordinal='39' />
+                  <column datatype='string' name='daen_program_tools_3' ordinal='40' />
+                  <column datatype='string' name='daen_program_tools_4' ordinal='41' />
+                  <column datatype='string' name='daen_program_technologies_1' ordinal='42' />
+                  <column datatype='string' name='daen_program_technologies_2' ordinal='43' />
+                  <column datatype='string' name='daen_program_technologies_3' ordinal='44' />
+                  <column datatype='string' name='daen_program_technologies_4' ordinal='45' />
+                  <column datatype='string' name='daen_program_valuable_skills_1' ordinal='46' />
+                  <column datatype='string' name='daen_program_valuable_skills_2' ordinal='47' />
+                  <column datatype='string' name='daen_program_valuable_skills_3' ordinal='48' />
+                  <column datatype='string' name='daen_program_valuable_skills_4' ordinal='49' />
+                  <column datatype='string' name='daen_program_valuable_skills_5' ordinal='50' />
+                  <column datatype='string' name='daen_program_valuable_skills_6' ordinal='51' />
+                  <column datatype='string' name='daen_program_potential_improvement_1' ordinal='52' />
+                  <column datatype='string' name='daen_program_potential_improvement_2' ordinal='53' />
+                  <column datatype='string' name='daen_program_potential_improvement_3' ordinal='54' />
+                  <column datatype='string' name='daen_program_potential_improvement_4' ordinal='55' />
+                  <column datatype='string' name='daen_program_potential_improvement_5' ordinal='56' />
+                  <column datatype='string' name='daen_program_potential_improvement_6' ordinal='57' />
+                  <column datatype='string' name='course_certification_completed_1' ordinal='58' />
+                  <column datatype='string' name='course_certification_completed_2' ordinal='59' />
+                  <column datatype='string' name='course_certification_completed_3' ordinal='60' />
+                  <column datatype='string' name='course_certification_completed_4' ordinal='61' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>DAEN Alumni Degree Type</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='preprocessed-information-extraction' name='federated.0ap29f91o1ij3212uqvjl1vp90h1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ap29f91o1ij3212uqvjl1vp90h1'>
+            <column-instance column='[degree_type]' derivation='Count' name='[cnt:degree_type:qk]' pivot='key' type='quantitative' />
+            <column caption='Degree Type' datatype='string' name='[degree_type]' role='dimension' type='nominal' />
+            <column-instance column='[degree_type]' derivation='None' name='[none:degree_type:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ap29f91o1ij3212uqvjl1vp90h1].[none:degree_type:nk]</rows>
+        <cols>[federated.0ap29f91o1ij3212uqvjl1vp90h1].[cnt:degree_type:qk]</cols>
+      </table>
+      <simple-id uuid='{D5D80A8B-E911-4AE1-B421-43E40081F6BB}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ap29f91o1ij3212uqvjl1vp90h1].[none:degree_type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{46BA45B7-A065-4741-898C-C6C34FB8B291}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='198' name='Sheet 4' width='384'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
